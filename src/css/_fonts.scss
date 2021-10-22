@@ -1,0 +1,26 @@
+@import './colors';
+
+@mixin font {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.001em;
+    color: $color-neutral-900;
+}
+
+@mixin font-title-secondary {
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0.0125em;
+    font-size: 16px;
+    color: $color-neutral-700;
+}
+
+@mixin font-widget-title-small {
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0.0125em;
+    font-size: 14px;
+    color: $color-neutral-500;
+}

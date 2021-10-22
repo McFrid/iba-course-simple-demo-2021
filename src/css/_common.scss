@@ -1,0 +1,37 @@
+@import './colors';
+
+$default-margin: 12px;
+
+.card {
+    padding: 24px 16px;
+    box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.1);
+    border: 1px solid $color-neutral-020;
+    border-radius: 4px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    gap: $default-margin
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    gap: $default-margin;
+}
+
+.divider {
+    height: 0;
+    border: 1px solid fade-out($color-neutral-700, 0.9);
+    border-bottom: none;
+    margin: 20px 0px;
+}
+
+.clickable {
+    cursor: pointer;
+
+    &:hover {
+        transform: scale(1.2);
+    }
+}

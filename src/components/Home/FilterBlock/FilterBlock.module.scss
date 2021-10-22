@@ -1,0 +1,26 @@
+@import '../../../css/common';
+@import '../../../css/fonts';
+
+.header {
+    @include font-widget-title-small;
+
+    justify-content: space-between;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: $default-margin
+}
+
+.filter {
+    display: flex;
+    flex-direction: column;
+
+    & label {
+        @include font;
+
+        color: $color-neutral-700;
+        line-height: 24px;
+    }
+}
