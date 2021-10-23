@@ -1,0 +1,10 @@
+insert into user (name, username, email) values ('Leanne Graham', 'Bret',	'Sincere@april.biz');
+insert into user (name, username, email) values ('Ervin Howell', 'Antonette',	'Shanna@melissa.tv');
+insert into user (name, username, email) values ('Clementine Bauch', 'Samantha',	'Nathan@yesenia.net');
+insert into user (name, username, email) values ('Patricia Lebsack', 'Karianne',	'Julianne.OConner@kory.org');
+insert into user (name, username, email) values ('Chelsey Dietrich', 'Kamren',	'Lucio_Hettinger@annie.ca');
+insert into user (name, username, email) values ('Mrs. Dennis Schulist', 'Leopoldo_Corkery',	'Karley_Dach@jasper.info');
+insert into user (name, username, email) values ('Kurtis Weissnat', 'Elwyn.Skiles',	'Telly.Hoeger@billy.biz');
+insert into user (name, username, email) values ('Nicholas Runolfsdottir V', 'Maxime_Nienow',	'Sherwood@rosamond.me');
+insert into user (name, username, email) values ('Glenna Reichert', 'Delphine',	'Chaim_McDermott@dana.io');
+insert into user (name, username, email) values ('Clementina DuBuque', 'Moriah.Stanton',	'Rey.Padberg@karina.biz');
