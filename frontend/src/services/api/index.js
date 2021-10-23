@@ -1,7 +1,8 @@
 import { create } from "apisauce";
 
 const api = create({
-    baseURL: 'https://jsonplaceholder.typicode.com'
+    baseURL: 'https://jsonplaceholder.typicode.com' 
+    // baseUrl: 'http://localhost:8080'
 })
 
 export const getUsers = async (params) => {
